@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0px;
+    cursor: default;
+}
+
+.banner {
+    cursor: default;
+    z-index: 10;
+    position: fixed;
+    box-sizing: border-box;
+    min-height: 0px;
+    max-height: 30%;
+    width: 100%;
+}
+
+.sign-up {
+    z-index: -1;
+}
+
+.sample {
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    display: block;
+    font-family: "Arial";
+}
+
+.video {
+    margin: auto;
+    display: inline-block;
+}
+
+.navClass {
+    background-color: black;
+    color: silver;
+    list-style: none;
+    text-align: center;
+    position: fixed;
+    display: inline-block;
+    z-index: 10;
+    font-family: "Arial";
+}
+
+.footer {
+background-color: black;
+left: 0;
+color: blue;
+display: block;
+}
